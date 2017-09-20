@@ -45,9 +45,13 @@ body {
 }
 .markdown-body h4 {
   font-size: 14px;
+  text-align: left;
+  border-bottom: none;
 }
 .markdown-body h5 {
   font-size: 12px;
+  text-align: left;
+  border-bottom: none;
 }
 .markdown-body h6 {
   font-size: 11px;
