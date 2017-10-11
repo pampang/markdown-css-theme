@@ -27,6 +27,9 @@ body {
 .markdown-body {
   font-size: 16px;
 }
+.markdown-body img {
+  max-width: 100%;
+}
 .markdown-body a,
 .markdown-body .fake-link {
   text-decoration: none;
@@ -45,7 +48,7 @@ body {
 .markdown-body h5,
 .markdown-body h6 {
   color: #42b983;
-  margin-top: 24px 0 16px 0;
+  margin: 24px 0 16px 0;
   font-weight: 600;
   line-height: 1.25;
 }
@@ -76,6 +79,9 @@ body {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+.markdown-body p {
+  margin: 1em 0;
 }
 .markdown-body blockquote {
   background: #f9f9f9;
